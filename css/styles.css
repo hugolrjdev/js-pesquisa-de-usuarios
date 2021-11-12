@@ -1,0 +1,44 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  margin-right: 8px;
+}
+
+.users-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.users__box {
+    width: 48%;
+    text-align: center;
+}
+
+.users--border {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.info-user {
+  margin: 14px 0 0 10px;
+}
+
+.result{
+  margin: 15px auto !important;
+  padding: 0;
+}
+
+#alertsUsers span {
+  margin-top: 15px;
+}
+
+.not-results{
+  display: none;
+}

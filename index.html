@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de usuários</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Pesquisa de usuários</h1>
+
+        <div class="flex-row">
+            <div class="input-field input">
+                <input id="inputSearch" type="search" name="search" value="" class="validate" placeholder="Busca" >
+                <!-- <label for="search">Busca</label> -->
+            </div>
+
+            <button id="buttonSearch" type="button" class="waves-effect waves-light btn">button</button>
+        </div>
+
+        <div class="users-wrapper">
+            <div class="users__box users--border" id="panelUsers">
+                <div id="alertsUsers">
+                    
+                </div>
+                <div id="listUsers">
+                    
+                </div>
+
+
+            </div>
+            <div class="users__box users--border" id="panelStatistics">
+                <div id="statisticsUsers">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="controller/SearchController.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+
+</html>
